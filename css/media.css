@@ -1,0 +1,48 @@
+@media screen and (max-width: 1170px) {
+	h1 {
+		line-height: 1.5em;
+	}
+}
+
+@media screen and (max-width: 970px) {
+	.intro img {
+		width: 15em;
+	}
+
+	.intro .wrapper {
+		display: grid;
+		grid-auto-columns: auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	header .header-bottom {
+		padding: 5em 10em 15em 10em;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	header .header-top nav {
+		display: none;
+	}
+
+	header .header-bottom {
+		padding: 5em 5em 15em 5em;
+	}
+
+	.discover .discover-items {
+		display: grid;
+		grid-template-columns: auto;
+	}
+
+	.discover .discover-items .discover-item {
+		width: 100%;
+		margin: 1em 0;
+	}
+}
+
+@media screen and (max-width: 475px) {
+	header .header-bottom {
+		padding: 5em 1em 15em 1em;
+	}
+}

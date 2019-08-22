@@ -1,0 +1,182 @@
+.intro .wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.intro .wrapper>img {
+	width: 25em;
+	margin-right: 2.5em;
+	margin-left: 2.5em;
+}
+
+.intro .text {
+	color: #000;
+}
+
+.intro .text a {
+	color: #4094EE;
+}
+
+.intro .text a:hover {
+	text-decoration: underline;
+}
+
+.intro h3 {
+	line-height: 2.5em;
+}
+
+.intro .text>p,
+.intro .intro-item {
+	margin-top: 2.5em;
+}
+
+.intro .intro-item p {
+	margin-left: 3.75em;
+}
+
+.intro .intro-item .intro-title {
+	display: flex;
+	align-items: center;
+}
+
+.intro .intro-item .intro-title img {
+	margin-right: 2.5em;
+	width: 1.25em;
+	height: 1.25em;
+}
+
+.intro:nth-child(2) .text a {
+	color: #f2f2f2;
+}
+
+.intro:nth-child(2) .text {
+	color: #000;
+}
+
+.intro:nth-child(2) h2 {
+	color: #000;
+}
+
+.intro:nth-child(2) h3 {
+	color: #f2f2f2;
+}
+
+.intro:nth-child(2) hr {
+	background-color: #f2f2f2;
+}
+
+.features {
+	background-color: white;
+	text-align: center;
+}
+
+.features .features-items .features-item span {
+	display: block;
+	color: #4094EE;
+}
+
+.features .features-items .features-item span:first-child {
+	font-size: 3em;
+}
+
+.features .features-items .features-item span:last-child {
+	font-size: 1.5em;
+}
+
+.discover h2, 
+.discover h3 {
+	color: #f2f2f2;
+}
+
+.discover .discover-items {
+	color: #000;
+}
+
+.discover .discover-items .discover-item {
+	
+}
+
+.discover .discover-items .discover-item h3 {
+	line-height: 1.5em;
+	color: #f2f2f2;
+}
+
+.discover hr {
+	background-color: #f2f2f2;
+}
+
+/*.about {
+	text-align: center;
+}
+
+.about hr {
+	margin: .5em auto;
+}
+
+.about .about-items {
+	margin: 2.5em 0 0 0;
+}
+
+.about .about-items .about-item {
+	background-color: #f2f2f2;
+	padding: 1em;
+	width: 30.15%;
+	margin: 0;
+}*/
+
+.contacts .form-group {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.contacts input[type="text"],
+.contacts input[type="email"],
+.contacts textarea,
+.contacts input[type="submit"] {
+	padding: 1em .5em;
+	font-size: 1em;
+	outline: none;
+}
+
+.contacts input[type="text"]:focus,
+.contacts input[type="email"]:focus,
+.contacts textarea:focus {
+	border-color: #4094EE;
+	color: #4094EE;
+}
+
+.contacts input[type="text"],
+.contacts input[type="email"] {
+	width: 40%;
+	display: block;
+	color: #000;
+	border: 1px solid #c3c3c3;
+	margin-top: 1em;
+}
+
+.contacts textarea {
+	width: 100%;
+	resize: none;
+	height: 10em;
+	border: 1px solid #c3c3c3;
+	margin: 1em 0;
+}
+
+
+.contacts input[type="submit"] {
+	text-transform: uppercase;
+	width: 100%;
+	border: none;
+	background-color: #000;
+	color: #4094EE;
+	transition: .25s;
+	margin-bottom: 1em;
+}
+
+.contacts input[type="submit"]:hover {
+	background-color: #4094EE;
+	color: white;
+	text-decoration: underline;
+}
